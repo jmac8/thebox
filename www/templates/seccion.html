@@ -1,0 +1,94 @@
+<ion-view>	
+  <ion-content scroll="false">
+    <tab-slide-box tab="0" class="maxHead">
+		<div class="tsb-icons">
+			<div class="tsb-ic-wrp">
+				<ion-scroll direction="x" class="tsb-hscroll">
+					<a href="#" class="ion-home1">Home content</a>
+					<a href="#" class="ion-game-controller-b1">Games content</a>
+					<a href="#" class="ion-email1">Mail content</a>
+					<a href="#" class="ion-model-s1">Car content</a>
+					<a href="#" class="ion-person1">Profile content</a>
+				</ion-scroll>					
+			</div>
+		</div>
+		<ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index)">
+			<ion-slide>
+				<ion-scroll style="height:100%" on-scroll="scrollContent()" delegate-handle="mainScroll">				
+
+					<div layout="row" layout-sm="column" layout-wrap>					
+					
+						<div flex-sm="100" flex-md="50" flex-gt-md="33" class="item">	
+							<img class="item-image" src="http://placehold.it/400x300" />										
+						   	<div class="card item-text-wrap padding">								   		
+						   		<h1>This is a basic Card which contains an item that has</h1>				   				    
+							   	<p>Cursus dictumst integer, facilisis augue tincidunt arcu vut odio magna et integer ac duis in sed lacus elementum! Lacus dapibus magna, pellentesque vut lorem, aliquet ultricies tincidunt cursus urna proin adipiscing integer, aenean, habitasse risus! Nisi. Nunc ultricies, elit sed. In elementum? Ultricies turpis nunc mid pulvinar aliquet pulvinar ut.</p>		
+
+							   	<a class="item item-avatar" href="#">
+							      <img src="http://placehold.it/50x50">
+							      <h2>Venkman</h2>
+							      <p>Back off, man. I'm a scientist.</p>
+							    </a>
+							</div>
+						</div>	
+
+						<div flex-sm="100" flex-md="50" flex-gt-md="33" class="item">	
+							<img src="http://placehold.it/400x300" />										
+						   	<div class="card item-text-wrap padding">								   		
+						   		<h1>This is a basic Card which contains an item that has</h1>				   				    
+							   	<p>Cursus dictumst integer, facilisis augue tincidunt arcu vut odio magna et integer ac duis in sed lacus elementum! Lacus dapibus magna, pellentesque vut lorem, aliquet ultricies tincidunt cursus urna proin adipiscing integer, aenean, habitasse risus! Nisi. Nunc ultricies, elit sed. In elementum? Ultricies turpis nunc mid pulvinar aliquet pulvinar ut.</p>		
+							</div>
+						</div>	
+
+						<div flex-sm="100" flex-md="50" flex-gt-md="33" class="item">	
+							<img src="http://placehold.it/400x300" />										
+						   	<div class="card item-text-wrap padding">								   		
+						   		<h1>This is a basic Card which contains an item that has</h1>				   				    
+							   	<p>Cursus dictumst integer, facilisis augue tincidunt arcu vut odio magna et integer ac duis in sed lacus elementum! Lacus dapibus magna, pellentesque vut lorem, aliquet ultricies tincidunt cursus urna proin adipiscing integer, aenean, habitasse risus! Nisi. Nunc ultricies, elit sed. In elementum? Ultricies turpis nunc mid pulvinar aliquet pulvinar ut.</p>		
+							</div>
+						</div>	
+
+						<div flex-sm="100" flex-md="50" flex-gt-md="33" class="item">	
+							<img src="http://placehold.it/400x300" />										
+						   	<div class="card item-text-wrap padding">								   		
+						   		<h1>This is a basic Card which contains an item that has</h1>				   				    
+							   	<p>Cursus dictumst integer, facilisis augue tincidunt arcu vut odio magna et integer ac duis in sed lacus elementum! Lacus dapibus magna, pellentesque vut lorem, aliquet ultricies tincidunt cursus urna proin adipiscing integer, aenean, habitasse risus! Nisi. Nunc ultricies, elit sed. In elementum? Ultricies turpis nunc mid pulvinar aliquet pulvinar ut.</p>		
+							</div>
+						</div>	
+
+						<div flex-sm="100" flex-md="50" flex-gt-md="33" class="item">	
+							<img src="http://placehold.it/400x300" />										
+						   	<div class="card item-text-wrap padding">								   		
+						   		<h1>This is a basic Card which contains an item that has</h1>				   				    
+							   	<p>Cursus dictumst integer, facilisis augue tincidunt arcu vut odio magna et integer ac duis in sed lacus elementum! Lacus dapibus magna, pellentesque vut lorem, aliquet ultricies tincidunt cursus urna proin adipiscing integer, aenean, habitasse risus! Nisi. Nunc ultricies, elit sed. In elementum? Ultricies turpis nunc mid pulvinar aliquet pulvinar ut.</p>		
+							</div>
+						</div>	
+
+						<div flex-sm="100" flex-md="50" flex-gt-md="33" class="item">	
+							<img src="http://placehold.it/400x300" />										
+						   	<div class="card item-text-wrap padding">								   		
+						   		<h1>This is a basic Card which contains an item that has</h1>				   				    
+							   	<p>Cursus dictumst integer, facilisis augue tincidunt arcu vut odio magna et integer ac duis in sed lacus elementum! Lacus dapibus magna, pellentesque vut lorem, aliquet ultricies tincidunt cursus urna proin adipiscing integer, aenean, habitasse risus! Nisi. Nunc ultricies, elit sed. In elementum? Ultricies turpis nunc mid pulvinar aliquet pulvinar ut.</p>		
+							</div>
+						</div>											
+
+					</div>
+
+				</ion-scroll>
+			</ion-slide>
+			<ion-slide>
+				<h1>Games content</h1>
+			</ion-slide>
+			<ion-slide>
+				<h1>Mail content</h1>
+			</ion-slide>
+			<ion-slide>
+				<h1>Car content</h1>
+			</ion-slide>
+			<ion-slide>
+				<h1>Profile content</h1>
+			</ion-slide>
+		</ion-slide-box>
+	</tab-slide-box>
+  </ion-content>
+</ion-view>

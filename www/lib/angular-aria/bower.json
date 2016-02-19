@@ -1,0 +1,9 @@
+{
+  "name": "angular-aria",
+  "version": "1.4.1-build.4055+sha.91b6022",
+  "main": "./angular-aria.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.4.1-build.4055+sha.91b6022"
+  }
+}
